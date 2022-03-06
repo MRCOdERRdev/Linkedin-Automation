@@ -24,8 +24,7 @@ for name in names_list:
         password_field.send_keys(Keys.ENTER)
         time.sleep(5)
     except:    
-    # message_down=driver.find_element_by_class_name("msg-overlay-bubble-header__control msg-overlay-bubble-header__control--new-convo-btn artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--1 artdeco-button--tertiary ember-view")
-    # message_down.click()
+   
         time.sleep(3)
         
     search=driver.find_element_by_xpath('//*[@id="global-nav-typeahead"]/input')
@@ -65,22 +64,3 @@ for name in names_list:
                 
         else:
             pass
-    # search=driver.find_element_by_xpath('//*[@id="global-nav-typeahead"]/input')
-    # search.click()
-    # time.sleep(3)
-    # search.clear()
-    # time.sleep(2)
-    # search.click()
-    # time.sleep(5)
-    # search.send_keys["fdkslfj"]
-    # search.send_keys[Keys.ENTER]
-
-    # artdeco_card=driver.find_element_by_class_name("artdeco-card pv0 mb6")
-
-    # pagination=artdeco_card.find_element_by_class_name("artdeco-pagination artdeco-pagination--has-controls ember-view pv5 ph2")
-    # ul=pagination.find_element_by_tag_name("ul")
-    # li=ul.find_elements_by_tag_name("li")
-    # for li in list:
-    #     button=li.find_element_by_tag_name("button")
-    #     button.click()
-    
