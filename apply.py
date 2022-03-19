@@ -12,10 +12,10 @@ signin.click()
 
 email_field=driver.find_element_by_id("username")
 email_field.click()
-email_field.send_keys("tech.buis.tanmay@gmail.com")
+email_field.send_keys("YOUR EMAIL")
 password_field=driver.find_element_by_id("password")
 password_field.click()
-password_field.send_keys("-FjLvA!qC92=3y2")
+password_field.send_keys("YOUR PASSWORD")
 password_field.send_keys(Keys.ENTER)
 while True:
     easy=driver.find_element_by_class_name("jobs-apply-button--top-card")
